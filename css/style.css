@@ -693,6 +693,9 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(0, 0, 0, 0.2);
 }
 #fh5co-gallery-list li a:hover:before {
+  background: transparent;
+}
+#fh5co-gallery-list li a:before {
   background: rgba(0, 0, 0, 0.5);
 }
 #fh5co-gallery-list li a .case-studies-summary {
