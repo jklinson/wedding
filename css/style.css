@@ -697,11 +697,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-gallery-list li a .case-studies-summary {
   width: auto;
-  bottom: 2em;
-  left: 2em;
-  right: 2em;
+  bottom: 0px;
+  left: 5px;
   position: absolute;
   z-index: 100;
+  font-family: "Sacramento", Arial, serif;
+  font-weight: 600;
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li a .case-studies-summary {
@@ -711,10 +712,9 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-gallery-list li a .case-studies-summary span {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.7);
+  /* letter-spacing: 2px; */
+  font-size: 1.5em;
+  color: #fff;
 }
 #fh5co-gallery-list li a .case-studies-summary h2 {
   color: #fff;
