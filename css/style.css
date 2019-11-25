@@ -706,13 +706,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li a .case-studies-summary {
+    background: rgba(0, 0, 0, 0.5);
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
 #fh5co-gallery-list li a .case-studies-summary span {
-  /* letter-spacing: 2px; */
+  
+  letter-spacing: 1px;
   font-size: 1.5em;
   color: #fff;
 }
