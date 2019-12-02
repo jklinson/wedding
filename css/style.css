@@ -243,7 +243,13 @@ h1 small{
   background-repeat: no-repeat;
   position: relative;
 }
-
+@media screen and (max-width: 768px) {
+  #fh5co-counter,
+#fh5co-event,
+.fh5co-bg {
+  background-position-x: -450px;
+  }
+}
 .fh5co-bg {
   background-position: center center;
   width: 100%;
