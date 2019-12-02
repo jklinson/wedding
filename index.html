@@ -8,20 +8,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>LiNe Wedding &mdash; Linson & Neethu</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="description" content="Wedding details of Linson and Neethu." />
 	<meta name="keywords" content="Linson Alfred Neethu Abraham Wedding LiNeWedding Engagement" />
 	<meta name="author" content="Linson Alfred" />
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+  	
 
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
@@ -315,54 +306,72 @@
 		</div>
 	</div>
 
-	<div id="fh5co-testimonial">
+	
+
+	<!-- Start Family -->
+	<div id="family" class="family-box">
+			<div class="container">
+				<div class="row">
+						<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+									<!-- <span>Our Memories</span> -->
+									<h2>Family</h2>
+									<p> </p>
+								</div>
+							</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 one-third animate-box">
+						<div class="single-team-member">
+							<div class="family-img">
+								<img class="img-fluid" src="images/linson-family.jpg" alt="" width="100%" />
+							</div>
+							<div class="family-info">
+								<h4>Linson Alfred's Family </h4>
+								<p>Family details</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 one-third animate-box">
+						<div class="single-team-member">
+							<div class="family-img">
+								<img class="img-fluid" src="images/neethu-family.jpg" alt="" width="100%"/>
+							</div>
+							<div class="family-info">
+								<h4>Neethu Abraham's Family</h4>
+								<p>Family details</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!-- End Family -->
+
+		<div id="fh5co-map">
 		<div class="container">
 			<div class="row">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Best Wishes</span>
-						<h2>Friends Wishes</h2>
+						<h2>Event Location</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12 animate-box">
-						<div class="wrap-testimony">
-							<div class="owl-carousel-fullwidth">
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-1.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
-										</blockquote>
-									</div>
+							<div class="embed-container maps">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2226.114416854376!2d76.26205673763951!3d9.934320784853266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b086d7950cf82c9%3A0xbb0fdd727c66745b!2sSt.%20Sebastian&#39;s%20Latin%20Catholic%20Church!5e0!3m2!1sen!2sus!4v1575315572342!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-2.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
+								<!-- <div class="wrap-footer">
+									<div class="zerogrid">
+										<div class="row">
+											<h3>Contact</h3>
+											<span>Phone / +91 9633772591 </span></br>
+											<span>Email / jklinson@gmail.com  </span></br>
+											<span>Linson Alfred </span></br>
+										</div>
 									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-3.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-						</div>
+								</div> -->
 					</div>
 				</div>
 			</div>
@@ -419,6 +428,16 @@
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+
+	<script>
+			$('.maps').click(function () {
+			$('.maps iframe').css("pointer-events", "auto");
+		});
+	
+		$( ".maps" ).mouseleave(function() {
+		  $('.maps iframe').css("pointer-events", "none"); 
+		});
+		</script>
 
 	<script>
     var d = new Date(2019, 12, 28);
