@@ -59,6 +59,10 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
+.icon-facebook {
+  color: #337ab7 !important;
+}
+
 p {
   margin-bottom: 20px;
 }
@@ -452,18 +456,20 @@ h1 small{
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
   display: block;
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
   color: white;
-  font-size: 20px;
+  font-size: 32px;
 }
 #fh5co-counter .event-wrap .event-col,
 #fh5co-event .event-wrap .event-col {
   width: 50%;
   float: left;
   margin-bottom: 30px;
+  font-size: 1.5em;
+  font-weight: 800;
 }
 
 #fh5co-counter {
@@ -472,6 +478,14 @@ h1 small{
 @media screen and (max-width: 768px) {
   #fh5co-counter {
     height: auto;
+  }
+  #fh5co-counter .event-wrap i,
+  #fh5co-event .event-wrap i {
+    font-size: 20px;
+  }
+  #fh5co-counter .event-wrap .event-col,
+  #fh5co-event .event-wrap .event-col {
+    font-size: 1em;
   }
 }
 
@@ -597,6 +611,7 @@ h1 small{
 
 .timeline-title {
   margin-top: 0;
+  color: #F14E95;
 }
 
 .date {
@@ -604,16 +619,20 @@ h1 small{
   margin-bottom: 20px;
   font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  color: #F14E95;
 }
 
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
+  color: #828282;
 }
 
 .timeline-body > p + p {
   margin-top: 5px;
+  
+
 }
 
 @media (max-width: 992px) {
@@ -980,8 +999,8 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .simply-countdown > .simply-section {
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
   }
 }
 
@@ -1021,6 +1040,11 @@ form label {
   font-size: 30px;
   /* amounts */
 }
+@media screen and (max-width: 768px) {
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 25px;
+  }
+}
 
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
@@ -1043,7 +1067,8 @@ form label {
 #fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
-.fh5co-section {
+.fh5co-section,
+#fh5co-map {
   padding: 7em 0;
   clear: both;
 }
@@ -1056,7 +1081,8 @@ form label {
   #fh5co-couple-story,
   #fh5co-couple,
   #fh5co-gallery,
-  .fh5co-section {
+  .fh5co-section,
+  #fh5co-map  {
     padding: 3em 0;
   }
 }
@@ -1937,4 +1963,8 @@ form label {
 
 #fh5co-map .container{
   width: 100% !important;
+}
+#fh5co-map span{
+
+  color: #252525;
 }
