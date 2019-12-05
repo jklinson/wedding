@@ -191,7 +191,7 @@
 	$(window).on('load', function() { 
 		// $('.preloader').fadeOut(); 
 		$('#preloader').delay(3000).fadeOut('slow'); 
-		// $('body').delay().css({'overflow':'visible'});
+		$('body').delay(3000).css({'overflow':'visible'});
 	});
 
 	var counter = function() {
