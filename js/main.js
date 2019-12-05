@@ -185,8 +185,14 @@
 
 	// Loading page
 	var loaderPage = function() {
-		$(".fh5co-loader").fadeOut("slow");
+		// $(".fh5co-loader").fadeOut("slow");
 	};
+
+	$(window).on('load', function() { 
+		// $('.preloader').fadeOut(); 
+		$('#preloader').delay(3000).fadeOut('slow'); 
+		// $('body').delay().css({'overflow':'visible'});
+	});
 
 	var counter = function() {
 		$('.js-counter').countTo({
