@@ -190,8 +190,8 @@
 
 	$(window).on('load', function() { 
 		// $('.preloader').fadeOut(); 
-		$('#preloader').delay(3000).fadeOut('slow'); 
-		$('body').delay(3000).css({'overflow':'visible'});
+		// $('#preloader').delay(3000).fadeOut('slow'); 
+		// $('body').delay(3000).css({'overflow':'visible'});
 	});
 
 	var counter = function() {

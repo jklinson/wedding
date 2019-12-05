@@ -1988,6 +1988,9 @@ form label {
 }
 #preloader .col-xs-12 {
   color: black;
+  font-size: 28px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .pulse {
