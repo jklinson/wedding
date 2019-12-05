@@ -186,12 +186,14 @@
 	// Loading page
 	var loaderPage = function() {
 		// $(".fh5co-loader").fadeOut("slow");
+		$('#preloader').delay(3000).fadeOut('slow'); 
+		$('body').delay(3000).css({'overflow':'visible'});
 	};
 
 	$(window).on('load', function() { 
 		// $('.preloader').fadeOut(); 
-		// $('#preloader').delay(3000).fadeOut('slow'); 
-		// $('body').delay(3000).css({'overflow':'visible'});
+		$('#preloader').delay(3000).fadeOut('slow'); 
+		$('body').delay(3000).css({'overflow':'visible'});
 	});
 
 	var counter = function() {
